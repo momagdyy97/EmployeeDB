@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DevMagicFake" Version="1.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+    <PackageReference Include="NuGet.Common" Version="6.2.1" />
+    <PackageReference Include="NuGet.Configuration" Version="6.2.1" />
+    <PackageReference Include="NuGet.DependencyResolver.Core" Version="5.11.0" />
+    <PackageReference Include="NuGet.Frameworks" Version="6.2.1" />
+    <PackageReference Include="NuGet.LibraryModel" Version="5.11.0" />
+    <PackageReference Include="NuGet.Packaging" Version="6.2.1" />
+    <PackageReference Include="NuGet.ProjectModel" Version="5.11.0" />
+    <PackageReference Include="NuGet.Protocol" Version="5.11.0" />
+    <PackageReference Include="NuGet.Versioning" Version="6.2.1" />
+  </ItemGroup>
+
+</Project>
