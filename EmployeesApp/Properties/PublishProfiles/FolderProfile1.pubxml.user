@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\momagdy\OneDrive - VMware, Inc\VMwareCorp\Desktop\EmployeeDB\EmployeesApp\bin\Release</_PublishTargetUrl>
+    <History>True|2022-12-02T12:00:48.6122925Z;True|2022-12-01T14:31:44.3059148+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=momagdy-z01%3bInitial Catalog=EmployeesDB%3bIntegrated Security=True%3bTrusted_Connection=SSPI%3b MultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

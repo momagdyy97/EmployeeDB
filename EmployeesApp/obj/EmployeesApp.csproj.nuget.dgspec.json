@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\momagdy\\source\\repos\\EmployeeAppCRUD\\EmployeesApp\\EmployeesApp.csproj": {}
+    "C:\\Users\\momagdy\\OneDrive - VMware, Inc\\VMwareCorp\\Desktop\\EmployeeDB\\EmployeesApp\\EmployeesApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\momagdy\\source\\repos\\EmployeeAppCRUD\\EmployeesApp\\EmployeesApp.csproj": {
+    "C:\\Users\\momagdy\\OneDrive - VMware, Inc\\VMwareCorp\\Desktop\\EmployeeDB\\EmployeesApp\\EmployeesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\momagdy\\source\\repos\\EmployeeAppCRUD\\EmployeesApp\\EmployeesApp.csproj",
+        "projectUniqueName": "C:\\Users\\momagdy\\OneDrive - VMware, Inc\\VMwareCorp\\Desktop\\EmployeeDB\\EmployeesApp\\EmployeesApp.csproj",
         "projectName": "EmployeesApp",
-        "projectPath": "C:\\Users\\momagdy\\source\\repos\\EmployeeAppCRUD\\EmployeesApp\\EmployeesApp.csproj",
+        "projectPath": "C:\\Users\\momagdy\\OneDrive - VMware, Inc\\VMwareCorp\\Desktop\\EmployeeDB\\EmployeesApp\\EmployeesApp.csproj",
         "packagesPath": "C:\\Users\\momagdy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\momagdy\\source\\repos\\EmployeeAppCRUD\\EmployeesApp\\obj\\",
+        "outputPath": "C:\\Users\\momagdy\\OneDrive - VMware, Inc\\VMwareCorp\\Desktop\\EmployeeDB\\EmployeesApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\momagdy\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,10 +40,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "DevMagicFake": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.10, )"
