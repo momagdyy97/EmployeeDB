@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[6.0.10, )"
             },
+            "NuGet.Build": {
+              "target": "Package",
+              "version": "[2.12.1, )"
+            },
             "NuGet.Common": {
               "target": "Package",
               "version": "[6.2.1, )"
@@ -85,6 +89,12 @@
             "NuGet.Protocol": {
               "target": "Package",
               "version": "[5.11.0, )"
+            },
+            "NuGet.Publish": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.8.19, )"
             },
             "NuGet.Versioning": {
               "target": "Package",

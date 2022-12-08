@@ -1677,6 +1677,15 @@
           }
         }
       },
+      "NuGet.Build/2.12.1": {
+        "type": "package",
+        "dependencies": {
+          "NuGet.CommandLine": "4.9.3"
+        }
+      },
+      "NuGet.CommandLine/4.9.3": {
+        "type": "package"
+      },
       "NuGet.Common/6.2.1": {
         "type": "package",
         "dependencies": {
@@ -1808,6 +1817,9 @@
             "related": ".xml"
           }
         }
+      },
+      "NuGet.Publish/1.0.8.19": {
+        "type": "package"
       },
       "NuGet.Versioning/6.2.1": {
         "type": "package",
@@ -5722,6 +5734,32 @@
         "packageIcon.png"
       ]
     },
+    "NuGet.Build/2.12.1": {
+      "sha512": "8kFy8VUxa3WyvmquWxmwvyttbj3vzV4/t3eqYcQlPiP9xwNe8+SEwJNtpTG9SyP9Iyp9fvQNLyJ1w+71Egfuag==",
+      "type": "package",
+      "path": "nuget.build/2.12.1",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "nuget.build.2.12.1.nupkg.sha512",
+        "nuget.build.nuspec",
+        "tools/NuGet.targets"
+      ]
+    },
+    "NuGet.CommandLine/4.9.3": {
+      "sha512": "+jPG422sbV/3gULQuHAUkmVZmFpC1+GUrK6VlOlY7anN02xilmFREzKvH3ra9KzvfFiib3jRwyGK/xVKpyEKkQ==",
+      "type": "package",
+      "path": "nuget.commandline/4.9.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "nuget.commandline.4.9.3.nupkg.sha512",
+        "nuget.commandline.nuspec",
+        "tools/NuGet.exe"
+      ]
+    },
     "NuGet.Common/6.2.1": {
       "sha512": "qmC7zVUdYaz1lE4tw4dceTFnmVho36tut8R/gvxLIixtjGhIZDIvdo4wUUIDLXrDxublaQYMay1+QotTOUIj8g==",
       "type": "package",
@@ -5866,6 +5904,25 @@
         "lib/netstandard2.0/NuGet.Protocol.xml",
         "nuget.protocol.5.11.0.nupkg.sha512",
         "nuget.protocol.nuspec"
+      ]
+    },
+    "NuGet.Publish/1.0.8.19": {
+      "sha512": "6BXDySRAJDBYGzzl3eydouy2Xl2v9V4mACaOGONvLA4NhhY0XBooEeHgLLl5SRW0kU/sabKyh2a5Wt5pG/siRg==",
+      "type": "package",
+      "path": "nuget.publish/1.0.8.19",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Gruntfile.js",
+        "content/NuGet.exe",
+        "content/Properties/AssemblyInfo.t4",
+        "content/package.json",
+        "dotnetcore/Gruntfile.js",
+        "dotnetcore/package.json",
+        "nuget.publish.1.0.8.19.nupkg.sha512",
+        "nuget.publish.nuspec",
+        "tools/Init.ps1"
       ]
     },
     "NuGet.Versioning/6.2.1": {
@@ -9846,6 +9903,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.10",
+      "NuGet.Build >= 2.12.1",
       "NuGet.Common >= 6.2.1",
       "NuGet.Configuration >= 6.2.1",
       "NuGet.DependencyResolver.Core >= 5.11.0",
@@ -9854,6 +9912,7 @@
       "NuGet.Packaging >= 6.2.1",
       "NuGet.ProjectModel >= 5.11.0",
       "NuGet.Protocol >= 5.11.0",
+      "NuGet.Publish >= 1.0.8.19",
       "NuGet.Versioning >= 6.2.1"
     ]
   },
@@ -9910,6 +9969,10 @@
             "target": "Package",
             "version": "[6.0.10, )"
           },
+          "NuGet.Build": {
+            "target": "Package",
+            "version": "[2.12.1, )"
+          },
           "NuGet.Common": {
             "target": "Package",
             "version": "[6.2.1, )"
@@ -9941,6 +10004,12 @@
           "NuGet.Protocol": {
             "target": "Package",
             "version": "[5.11.0, )"
+          },
+          "NuGet.Publish": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.0.8.19, )"
           },
           "NuGet.Versioning": {
             "target": "Package",
